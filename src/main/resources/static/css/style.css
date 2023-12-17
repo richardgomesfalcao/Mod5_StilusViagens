@@ -1,0 +1,268 @@
+  /*cadastro */ 
+main {
+    background-color:rgba(218, 213, 221, 0.897) ;
+}
+
+h1{
+    margin-top: 10px;
+   
+}
+h5{
+    margin-top: 20px;
+
+}
+h4{
+    margin-top: 50px;
+}
+.text{
+    text-align: center;
+    margin-bottom: 2%;
+    
+}
+
+.form-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 5%; 
+        }
+        
+        .form-section {
+            flex: 1;
+            padding: 30px;
+        }
+
+        .middle-divider {
+            height: 100%;
+            margin: 1 10px;
+        }
+/* fim cadastro */
+
+/* contato */
+ .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100hv;
+    }
+
+    form {
+      width: 50%;
+      padding-bottom: 100px;
+    }
+
+    .form-menu {
+      width: 100%;
+      padding-bottom: 10px;
+    }
+
+    main {
+      background-color: rgba(218, 213, 221, 0.897);
+    }
+
+    .fale-conosco {
+      text-align: center;
+      padding-top: 50px;
+      padding-block-end: 20px;
+      font-size: xx-large;
+    }
+/* fim contato */
+
+/*começo destino*/
+ h2 {
+      text-align: center;
+      padding-block-end: 70px;
+      padding-top: 40px;
+      background-color: rgb(218, 213, 221, 0.897);
+    }
+
+    .card {
+      padding-block-end: 20px;
+      padding-top: 20px;
+      background-color: rgb(218, 213, 221, 0.897);
+
+    }
+
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+
+/* fim destino*/
+
+/*começo entrar*/
+h2{
+    margin-bottom: 1%;
+    margin-top: 10px;
+    color: black;
+    background-color: rgba(218, 213, 221, 0.898);
+    }
+    .card-title{
+    
+    color: #dad5dde5;
+    }
+    .card-title{
+    
+    color: rgba(218, 213, 221, 0.898);
+    }
+    
+    .container{
+        margin-bottom: 40px;
+        
+    }
+    .text{
+        text-align: center;
+        margin-bottom: 10%;
+        
+    }
+        
+    .card{
+        background:  #dad5dde5;
+        
+    }
+    
+    .form-container{
+        border: 1px solid black;
+    }
+    .btn-primary{
+        background-color: rgb(87, 75, 90);
+        color: white;
+    }
+    .btn-primary:hover{
+        background-color: #dad5dde5;
+        color: #422653e5;
+    }
+
+
+    .left {
+        background: #dad5dde5;
+        padding: 30px 150px;
+    }
+   
+       .right {
+         padding: 10px 60px;
+         position: relative;
+    }
+  /* fim entrar*/
+  
+
+/* começo index*/
+ .carousel-inner {
+      height: 400px;
+      /* Ajustar a altura */
+    }
+
+    .carousel-item img {
+      width: 100%;
+      height: 400px;
+      /* Ajuste a altura desejada */
+      object-fit: cover;
+      /* Para manter a proporção e preencher o espaço */
+    }
+
+    .carousel-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.7);
+      /* cor  fundo  */
+      color: white;
+      /* Cor do texto */
+      padding: 15px;
+    }
+/* fim index*/
+
+/* começo promoção*/
+
+h2 {
+      text-align: center;
+      padding-block-end: 50px;
+      padding-top: 40px;
+      background-color: rgb(218, 213, 221, 0.897);
+    }
+
+    .card {
+      padding-block-end: 20px;
+      padding-top: 20px;
+      background-color: rgb(218, 213, 221, 0.897);
+    }
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+/* fim promoção*/
+
+
+
+
+  /*começo footer */ 
+ footer {
+      background-color: rgb(63, 63, 63);
+      padding: 10px;
+    }
+
+    .footer-info {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .contact-info {
+      color: white;
+      font-size: medium;
+     }
+
+    .end-info {
+      color: white;
+      font-size: medium;
+    }
+    
+    .footer-text {
+      text-align: center;
+      color: white;
+
+    }
+
+    .img-footer {
+      width: 250px;
+    }
+  
+    .insta {
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+      -webkit-background-clip: text;
+
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      cursor: pointer;
+    }
+
+    .face {
+      color: #3B5998;
+      cursor: pointer;
+    }
+
+    .tw {
+      color: #00acee;
+      cursor: pointer;
+    }
+
+    .mess {
+      color: #3B5998;
+      cursor: pointer;
+
+    }
+
+    .whats {
+      color: rgb(50, 192, 14);
+      cursor: pointer;
+    }
+
+
+    @media screen and (max-width:600px) {
+      footer .footer-info {
+        display: flex;
+        flex-direction: column;
+
+      }
+    }
+    /*fim footer */ 
